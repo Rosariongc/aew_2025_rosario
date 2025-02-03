@@ -28,12 +28,22 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
 
+.perfil {
+    width: 200px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: green;
+    margin: 0;
+}
+
 #foto-perfil {
     height: 250px;
     justify-content: center;
     background-color: coral;
     align-items: center;
-    
-    
+}
+
+.borde-redondeado {
+    border-radius: 150px;
 
 }
