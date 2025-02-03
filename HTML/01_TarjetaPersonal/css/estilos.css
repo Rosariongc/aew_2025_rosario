@@ -29,6 +29,11 @@ p {
     transform: translate(-50%, -50%);
 
 #foto-perfil {
+    height: 250px;
+    justify-content: center;
+    background-color: coral;
+    align-items: center;
+    
     
 
 }
