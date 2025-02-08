@@ -1,0 +1,99 @@
+.titulo-categoria {
+    color: white;
+    font-family: 'Lucida Sans'; 
+    background-color: cornflowerblue;
+    width: 325px;
+    font-size: 24px;
+   
+}
+.imagenConcierto{
+    width: 396px;
+    height: 220px;
+}
+
+.conciertos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    
+}
+
+.informacionconcierto {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+a {
+    border-style: solid;
+    border-color:aliceblue;
+    background-color:rgb(228, 211, 211);
+    padding: 20px;
+}
+
+body {
+    background-color: #C9EFFB;
+}
+
+.artistafoto {
+    width: 700px;
+    height: 500px;
+    padding: 3px;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nombreartista{
+    color: #0A1A4E;
+    text-align: justify;
+    font-family: Coustard;
+    font-size: 40px;
+}
+.nombreartista h1{
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+.detallesevento {
+    color: #0A1A4E;
+    font-family: Coustard;
+    font-size: 20px;
+}
+
+.descripcionartista{
+    color: #0A1A4E;
+    font-family: Coustard;
+    font-size: 16px;
+}
+
+.ubicacion-precios-musica {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mapa {
+    display: flex;
+    align-items: center;
+    margin: 20px 50px 50px 60px;
+}
+
+.precios-musica {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+p{
+    text-align: center;
+}
+.descripcion-text{
+    text-align: justify;
+}
