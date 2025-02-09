@@ -1,0 +1,30 @@
+
+body {
+    background-image: url(../image/programador.jpg.jpg);
+}
+
+nav {
+    max-width: 900px;
+    margin: auto;
+    background-color: rgb(127, 146, 255);
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+.menu-horizontal {
+    display:flex;
+    justify-content:space-around;
+    list-style:none;
+
+}
+
+.menu-horizontal > li > a {
+    display:block;
+    color:antiquewhite;
+    text-decoration: none; 
+    padding: 15px 20px;
+}
+
+.menu-horizontal > li:hover {
+background-color:rgba(69, 42, 136, 0.767)
+}
