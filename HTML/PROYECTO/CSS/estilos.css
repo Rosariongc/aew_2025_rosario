@@ -1,21 +1,28 @@
 .titulo-categoria {
-    color: white;
+    color: rgb(202, 19, 19);
     font-family: 'Lucida Sans'; 
     background-color: cornflowerblue;
-    width: 325px;
+    width: 15%;
     font-size: 24px;
-   
 }
+
+h1 {
+    text-align: center;
+}
+
+
 .imagenConcierto{
     width: 396px;
     height: 220px;
 }
 
 .conciertos {
+    width: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 20px;
+    margin: 50px;
+    border-style: groove;
     
 }
 
