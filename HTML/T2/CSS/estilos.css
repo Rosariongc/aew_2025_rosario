@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0 ;
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    height: 141px;
+}
+
+.logo {
+    width: 25%;
+}
+
+.logo > img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.menu{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+nav {
+    width: 100%;
+}
+
+.menu-horizontal {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu-horizontal > li {
+    text-align: center;
+    align-content: center;
+    width: 20%;
+    height: 40px;
+    background-color: gold;
+    margin: 5px;
+    text-decoration: none;
+    color:black;
+    font-family: Arial;
+    font-weight: bold;
+    
+}
+
+.menu-horizontal > li:hover {
+    background-color: rgba(147, 30, 170, 0.733);
+    color:white;
+}
+
+.banner { 
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont-img {
+   height: 429px;
+   width: 100%; /* Si deseas que el div ocupe el ancho completo del contenedor padre */
+   margin-top: 20px;
+}
+
+.cont-img > img {
+    width: 100%;      /* La imagen ocupará el 100% del ancho del div */
+    height: 100%;     /* La imagen ocupará el 100% del alto del div */
+    object-fit: cover; /* Ajusta la imagen manteniendo su proporción, recortando si es necesario */
+}
+
+.descripcion {
+    width: 100%;
+    height: 264px;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0 30px 0;
+   
+}
+
+.descripcion > div {
+    width: 50%;
+    padding: 0 30px 0 30px;
+}
+
+.descripcion > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 20px 0px 20px 0px; 
+    box-sizing: border-box; /* Esto asegura que el padding no afecte el ancho */
+}
+
+.descripcion > div > h2 {
+    color:rgba(147, 30, 170, 0.733);
+    font-family: Arial;
+    margin-top: 60px;
+}
+
+p {
+    font-family: Arial;
+    text-align: justify;
+}
+
+.galeria {
+    background-color: aquamarine; 
+    width: 100%; 
+    display: flex;  
+    flex-direction: column; 
+    padding: 10px 10px 10px 10px; 
+    box-sizing: border-box; /* Esto asegura que el padding no afecte el ancho */
+}
+
+.galeria > div {
+    width: 100%;
+    height: 270px;
+    display: flex;  
+    flex-direction: row;  
+}
+
+.column1 {
+    width: 25%;
+    padding: 5px;
+}
+
+.column2 {
+    width: 75%;
+    padding: 5px;
+}
+
+.imagen-galeria {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer{
+    width: 100%;
+}
+
+footer {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 30px 0px 20px 0px;
+    font-family: Arial;
+    font-size: 15px;
+
+}
