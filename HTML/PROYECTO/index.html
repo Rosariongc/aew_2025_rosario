@@ -5,23 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TuTicketespacio</title>
     <link rel="stylesheet" href="CSS/estilos.css">
-    <div class="logo-pagina">
-        <img src="Images/Ticketespacio logo.jpg">
-        <h1>Tuticketespacio</h1>
-    </div>
-    <div>
-        <nav>
-            <ul>
-                <li>Categorias</li>
-                    <na>
-                        <ul>
-                            <li>Conciertos</li>
-                            <li>Teatro</li>
-                            <li>Deportes</li>
+    <div class="menu-superior">
+        <div class="logo-pagina">
+            <img src="Images/Ticketespacio logo.jpg">
+            <h1>Tuticketespacio</h1>
+        </div>
+        <div>
+            <nav>
+                <ul class="menu-categoria">
+                    <li class=""><i class="fa-solid fa-bars"></i> Categorias
+                        <ul class="submenu-categorias">
+                            <li><i class="fa-solid fa-music"></i><a class="nom-cate" href=""> Conciertos</a></li>
+                            <li><i class="fa-solid fa-masks-theater"></i> <a class="nom-cate" href=""> Teatro</a></li>
+                            <li><i class="fa-regular fa-futbol"></i><a class="nom-cate" href=""> Deportes</a></li>
                         </ul>
-                    </na>
-            </ul>
-        </nav>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <input type="text" class="Buscador por artista" placeholder="Buscar por artista" id="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <button>Iniciar sesión</button>
+        <button>Registrarse</button>
     </div>
 </head>
 <body>
@@ -94,3 +101,4 @@
     </div>
 </body>
 </html>
+<script src="https://kit.fontawesome.com/e4da0bc937.js" crossorigin="anonymous"></script>

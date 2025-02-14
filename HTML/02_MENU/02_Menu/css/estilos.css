@@ -21,7 +21,7 @@ nav {
     text-decoration: none;
     color: antiquewhite;
     display: block;
-    padding: 15px 20px;
+    padding: 15px 20px; 
 }
 
 .menu-horizontal > li:hover {
@@ -33,7 +33,7 @@ nav {
     width: 200px;
     position: absolute;
     list-style: none;
-    display: none;
+    /*display: none;*/
 }
 
 .menu-horizontal li:hover .submenu-catalogo {
