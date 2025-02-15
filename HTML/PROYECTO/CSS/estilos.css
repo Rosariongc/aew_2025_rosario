@@ -5,6 +5,10 @@
     font-style: normal;   /* Estilo normal o itálico si la fuente lo tiene */
 }
 
+
+html {
+    background-color: white;
+}
   
 .titulo-categoria {
     color: rgb(228, 213, 213);
@@ -50,7 +54,7 @@ a {
 }
 
 body {
-    background-color: #C9EFFB;
+    background-color: white;
 }
 
 .presentacion {
@@ -167,12 +171,12 @@ li {
 
 img {
     width: 60px;
-    height: 54.5px;
+    height: 64px;
 }
 
 .logo-pagina > h1 {
     width: 260px;
-    height: 44.5px;
+    height: 54px;
     background-color: white;
     margin: 0%;
     text-align: start;
@@ -186,6 +190,7 @@ img {
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: white;
 }
 
 .menu-categoria {
@@ -232,4 +237,25 @@ img {
 
 .nom-cate{
     color:#0A1A4E;
+}
+
+.Buscador {
+    align-content: center;
+
+}
+
+input {
+    height: 60%;
+    font-family: 'Segoe UI';
+    text-align: center;   
+    padding: 0px 100px 0px 100px; 
+}
+
+.button {
+    align-content: center;
+}
+
+button {
+    height: 60%;
+    padding: 0px 40px 0px 40px;
 }
