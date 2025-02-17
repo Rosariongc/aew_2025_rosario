@@ -1,6 +1,47 @@
+/* Estilos para inicio se sesion */
 .logearse {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     text-align: center;
 }
+
+
+
+
+/* Estilos para registro */
+ .registrarse {
+    flex-direction: column;
+    text-align: center;
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 18px;
+    color: #7F7F7F;
+}
+
+.campo input {
+    padding: 10px 100px 10px 10px;
+    font-family:'Lucida Sans';
+    border-color: gray;
+    border-style:none;
+}
+
+#sexo {
+    padding: 10px 80px 10px 10px;
+    font-family:'Lucida Sans';
+}
+
+.sign-up-button {
+    margin-top: 30px;
+}
+
+.sign-up-button button {
+    font-family: Arial;
+    padding: 15px 40px 15px 40px;
+    text-align: center;
+    border-color: #000957;
+    background-color: #F6F5F2;
+    border-style: double;
+    color: #000957;
+    font-weight: bold ;
+}
+    
