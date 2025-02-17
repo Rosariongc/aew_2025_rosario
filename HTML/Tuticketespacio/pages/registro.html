@@ -4,12 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrate</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
     <header>
         <div>
             <a href="index.html"><img src="../images/logo.png" alt="logo" width="75%"></a> <!--Alt es el texto que se mostrará en lugar de la imagen en caso de que se produzca un error en la carga de la misma.-->
-        </div>
+        </div> 
     </header>
+    <form action="" method="POST" id="registro">
+        <div>
+            <p>Ingrese su nombre o nombres</p>
+            <input type="text" id="nombre" placeholder="Escriba su nombre">
+            
+            <p>Ingrese sus apellidos</p>
+            <input type="text" id="apellidos" placeholder="Escriba sus apellidos">
+            
+            <p>Ingrese su correo electrónico</p>
+            <input type="email" id="email" placeholder="example@dominio.com">
+            
+            <p>Crea tu contraseña</p>
+            <input type="password" id="contraseña" placeholder="Crea una contraseña"> 
+            
+            <p>Ingresa tu teléfono</p>
+            <input type="tel" id="telefono" placeholder="Escriba su número de teléfono">
+            
+            <p>Ingresa tu sexo</p>
+            <select id="sexo" class="elegir-sexo">
+                <option value="" disabled selected>Selecciona tu sexo</option>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+            </select>
+            <p></p>
+            <button type="submit">Registrarse</button>
+        </div>
+    </form>
 </body>
+<script src="../js/registro.js"></script>
 </html>
